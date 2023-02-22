@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+
+    <!-- // Pide al usuario varias cadenas de texto. Cuando se pulse el botón de cancelar(del alert) tendrán que mostrarse en el navegador cada cadena de texto concatenada con un guion. -->
+    <script>
+        // creación de contenedor para añadir las frases del user
+        const cadenas = [];
+        // pedir al usuario varias cadenas de texto.
+        const solicitarTexto=()=>{
+            // for (let i=0; i<cantidadCadenas; i++) {
+            do {
+                let cadenaTexto = config("Porfavor, escribe a continuación una frase");
+            } while (cadenaTexto == isNaN);
+                cadenas.push(cadenaTexto);
+            //     let cadenaTexto = config("Porfavor, escribe a continuación una frase");
+            // config("Gracias, por favor escribe otra frase")
+            // console.log(cadenaTexto);
+        }
+
+        solicitarTexto();
+
+        //mostrar en navegadorcada cadena concatenada con un "-"
+
+    </script>
+</body>
+</html>
