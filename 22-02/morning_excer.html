@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <!-- El juego piedra papel o tijera. Genera una opción aleatoria (piedra, papel o tijera)  que compite contra la que elegiste. -->
+    <div>
+        <h1>Rock, paper, scissors, shoot!</h1>
+    </div>
+<button id="actionButton">Begin to play!</button>
+<script>
+    alert("Welcome to rock, paper, scissors, shoot!")
+
+// VARIABLES +++++++++++++++++++++++++++++++++
+    const arrayOptions = [
+        "Rock",
+        "Paper",
+        "Scissors"
+    ]
+
+    let cont = 0;
+
+    const actB = document.querySelector("#actionButton");
+    console.log(actB);
+
+// EVENTOS +++++++++++++++++++++++++++++++++++
+    actB.addEventListener('click', (ev) => {
+        ev.preventDefault();
+        randomOpt();
+    })
+
+// FUNCIONES +++++++++++++++++++++++++++++++++
+    const randomOpt = () => {
+        arrayOptions.forEach((item) => {
+        var randomSelection = (Math.random() * arrayOptions.length);
+        cont ++
+        console.log(cont);
+    })}
+</script>
+</body>
+</html>

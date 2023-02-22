@@ -8,7 +8,7 @@ const titleB = document.querySelector('#titleBlank');
 const directorB = document.querySelector('#directorBlank');
 const yearB = document.querySelector('#yearBlank');
 const genreB = document.querySelector('#genreBlank');
-//          ++++++++++++++++    Blanks
+//  ++++++++++++++++    Blanks    ++++++++++++++
 const blankForms = document.querySelector(".inputs");
 const formM = document.querySelector("#form")
 const subButton = document.querySelector("#submitButton");

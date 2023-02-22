@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
+    <script>
+        const example1 = () => {
+            let ejemp1 = "pepe@pepe.es";
+            regExp = /[a-z]+@[a-z]+.[a-z]+/gmi
+            console.log(regExp.test(ejemp1.textContent));
+    }
+    example1();
+
+        const example2 = () => {
+            let ejemp2 = "pe.pe_pepe-23@pepe.es"
+            regExp = /*expresión regular*/
+            console.log(regExp.test(ejemp2.textContent));
+        }
+    example2();
+
+        const example3 = () => {
+            let ejemp3 = "pe.pe_pepe-23@pe_p-e.es"
+            regExp = /*expresión regular*/
+            console.log(regExp.test(ejemp3.textContent));
+        }
+    example3();
+
+    const example4 = () => {
+            let ejemp4 = "pe.pe_pepe-23@pepe.es.com"
+            regExp = /*expresión regular*/
+            console.log(regExp.test(ejemp4.textContent));
+        }
+    example4();
+
+
+    </script>
+</body>
+</html>
