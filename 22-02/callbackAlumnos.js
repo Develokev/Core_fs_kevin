@@ -38,7 +38,7 @@ const getNotas = (id, cb) => {
 
 const getBecas = (id, cb) => {
     let beca = arrayBeca.find((item) => item.id === id)?.beca;
-    if (!beca) {
+    if (beca == undefined) {
       cb(`Este alumno no está sistema`, null);
     } else if (beca == false) {
       cb(`Este alumno no ha solicitado la beca`, null);
