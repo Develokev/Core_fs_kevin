@@ -44,20 +44,6 @@ const peticion = async () => {
             }
 }
 
-// return {
-//     ok: true
-//     solicitudJSON
-
-// }    {
-
-// }
-
-// } catch (error) { //reject
-
-// }
-
-// }
-
 //FUNCIONES +++++++++++++++++++++++++++++++++++++++
 
 const paintAll = async () => {
